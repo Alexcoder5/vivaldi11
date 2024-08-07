@@ -1,0 +1,228 @@
+/********* web content *********/
+/* add padding */
+#webview-container {
+    padding: 0px 10px 10px 10px!important;
+    box-shadow: none!important;
+}
+/* add border radius */
+#webpage-stack {
+    border-radius: 10px!important;
+}
+/*remove padding and border radius for videos in full screen*/
+.fullscreen .inner #webview-container {
+    padding: 0px!important;
+}
+
+.fullscreen .inner #webpage-stack {
+    border-radius: 0px!important;
+}
+
+/************ main toolbar on top **************/
+.mainbar {
+    background: none !important;
+    border: none;
+}
+
+.toolbar-extensions .button-toolbar {
+    border-radius: 10px;
+    background: none
+}
+
+/* header */
+.mainbar .button-toolbar button[name=AccountButton] img {
+    padding: 2px!important
+}
+
+.tilingtoggle rect {
+    opacity: 1
+}
+
+/*************** tabs panel on left ***************/
+/* styles will be broken for other tab bar position */
+
+.inner > div.tabbar-wrapper {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#tabs-tabbar-container {
+    background: none!important;
+    padding-top: 10px!important;
+    backdrop-filter: none!important;
+}
+
+.tabbar-workspace-button {
+    background: none!important;
+    box-shadow: none!important;
+}
+
+.button-toolbar.newtab {
+    display: none
+}
+
+.separator-wsbutton {
+    display: none;
+}
+
+.tabbar-workspace-button > button {
+    background: rgba(255, 255, 255, 0.141);
+    color: #fff!important;
+    font-weight: 700;
+}
+
+.toggle-trash .button-icon {
+    color: #fff !important;
+}
+
+.tab {
+    color: #fff!important;
+    font-weight: 600;
+}
+
+.svg-tab-stack .stack-frame {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.accordion-toggle-arrow {
+    color: #fff!important;
+}
+
+#tabs-tabbar-container > .SlideBar--FullHeight {
+    right: -14px; 
+}
+
+#tabs-subcontainer {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.is-pinned .tab-header {
+    padding-left: 5px !important
+}
+
+#tabs-subcontainer .tab-position {
+    min-width: 32.5px
+}
+
+.tab-position .title {
+    mask: none!important;
+    margin-right: 8px!important;
+}
+
+.tab-group-indicator {
+    right: 0px!important;
+    left: 0px!important
+}
+
+.tab-position .svg-tab-stack {
+    /* display: none!important */
+}
+
+/************* side panel on right ****************/
+/* styles will be broken for other panel position */
+
+/* uncomment this to not show side panel when minimised */
+#panels-container.icons {
+    display: none
+}
+
+#panels-container {
+    background: none;
+    left: -5px;
+    border: none !important;
+}
+
+.panel-group {
+    border: none !important;
+}
+
+#panels-container .SlideBar--FullHeight {
+    left: -10px; 
+}
+
+.toolbar-panel {
+    padding-bottom: 10px
+}
+
+.panel.webpanel.visible {
+    border-radius: 8px;
+}
+
+.webpanel-content {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.webpanel-header {
+    background: var(--colorBgDark);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#panels-container {
+    padding-bottom: 10px
+}
+
+/************ bookmarks bar **************/
+/* you can change the bookmarks bar position */
+.bookmark-bar {
+    background: none!important;
+    height: 26px!important;
+    position: relative;
+    border-radius: 6px;
+    border: none;
+    top: -39.3px;
+    right: 13px;
+    margin-bottom: -26px;
+}
+
+.bookmark-bar .observer{
+    justify-content: flex-end;
+    padding: 0px!important;
+}
+
+.bookmark-bar .observer button{
+    background: var(--colorBgIntense);
+    z-index: 999;
+}
+
+.bookmark-bar .observer button {
+    border-top: 1px solid var(--colorBorder);
+    border-bottom: 1px solid var(--colorBorder);
+}
+
+.bookmark-bar .observer button:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid var(--colorBorder);
+    border-right: none
+}
+
+.bookmark-bar .observer button:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid var(--colorBorder);
+    border-left: none
+}
+
+.bookmark-bar .folder-icon {
+    display: none
+}
+
+/*************** footer *****************/
+footer {
+    background: none!important;
+    top: -3px;
+    padding: 0px 5px
+}
+
+footer .toolbar-statusbar {
+    height: unset!important;
+}
+
+/* **************** */
+
+.tile {
+    box-shadow: none!important
+}
