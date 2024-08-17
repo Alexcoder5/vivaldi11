@@ -124,7 +124,7 @@
 
 /* uncomment this to not show side panel when minimised */
 #panels-container.icons {
-    display: none
+    /* display: none */
 }
 
 #panels-container {
