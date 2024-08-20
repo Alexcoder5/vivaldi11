@@ -181,7 +181,6 @@
 
 .bookmark-bar .observer button{
     background: var(--colorBgIntense);
-    z-index: 999;
 }
 
 .bookmark-bar .observer button {
